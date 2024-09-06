@@ -63,7 +63,7 @@ void introduction()
     cout<<"\n\n\n\tName: \t\t\t\t\t Divyansh Deshmukh";
     cout<<"\n\n\tDegree: \t\t\t\t B.Tech(C.S.)";
     cout<<"\n\n\tInstagram: \t\t\t\t divyansh_5500";
-    cout<<"\n\n\tLinkdin: \t\t\t\t Divya.....";
+    cout<<"\n\n\tLinkdin: \t\t\t\t www.linkedin.com/in/divyansh-deshmukh";
     cout<<"\n\n\tContact: \t\t\t\t 7489894892";
     cout<<"\n\n\tInstitute: \t\t\t\t Acropolis Institute of Technology";
     cout<<"\n\n\t";
