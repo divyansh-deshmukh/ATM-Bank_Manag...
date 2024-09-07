@@ -30,35 +30,33 @@ class bank
     void details();
 };
 
+void loop(int n) // For star Line
+{
+    for(int i=1;i<=n;i++)
+        cout<<"*";
+}
+
 void introduction()
 {
     system("cls");
     cout<<"\n\n\n\n\n\t";
-    for(int i=1;i<=60;i++)
-        cout<<"*";
+    loop(60);
     cout<<"\n\t ";
-    for(int i=1;i<=58;i++)
-        cout<<"*";
+    loop(58);
     cout<<"\n\t  ";
-    for(int i=1;i<=56;i++)
-        cout<<"*";
+    loop(56);
     cout<<"\n\n\t\t\tBank & ATM Management System\n\n\t\t\t\tProject in C++\n\n\t  ";
-    for(int i=1;i<=56;i++)
-        cout<<"*";
+    loop(56);
     cout<<"\n\t ";
-    for(int i=1;i<=58;i++)
-        cout<<"*";
+    loop(58);
     cout<<"\n\t";
-    for(int i=1;i<=60;i++)
-        cout<<"*";
+    loop(60);
     getch();
     system("cls");
     cout<<"\n\n\n\n\n\t";
-    for(int i=1;i<=70;i++)
-        cout<<"*";
+    loop(70);
     cout<<"\n\t";
-    for(int i=1;i<=70;i++)
-        cout<<"*";
+    loop(70);
     cout<<"\n\n\t\t\tSoftware Developer Introdunction";
     cout<<"\n\n\n\tName: \t\t\t\t\t Divyansh Deshmukh";
     cout<<"\n\n\tDegree: \t\t\t\t B.Tech(C.S.)";
@@ -67,11 +65,9 @@ void introduction()
     cout<<"\n\n\tContact: \t\t\t\t 7489894892";
     cout<<"\n\n\tInstitute: \t\t\t\t Acropolis Institute of Technology";
     cout<<"\n\n\t";
-    for(int i=1;i<=70;i++)
-        cout<<"*";
+    loop(70);
     cout<<"\n\t";
-    for(int i=1;i<=70;i++)
-        cout<<"*";
+    loop(70);
     getch();
 }
 
